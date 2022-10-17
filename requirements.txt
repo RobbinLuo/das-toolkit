@@ -1,0 +1,5 @@
+h5py==2.10.0
+nptdms==1.6.0
+numpy==1.18.5
+scipy==1.5.0
+segyio==1.9.9
