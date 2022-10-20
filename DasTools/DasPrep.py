@@ -35,7 +35,7 @@ def _read_das_h5(fname, **kwargs):
     else:
         ch1 = kwargs.pop('ch1', 0)
         ch2 = kwargs.pop('ch2', nch)
-        data = h5_file['Acquisition/Raw[0]/RawData/'][ch1:ch2,:].T
+        data = h5_file['Acquisition/Raw[0]/RawData/'][:,ch1:ch2].T
         return data
 
     
